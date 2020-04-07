@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.first-container{
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid grey;
+
+}
+.head-container{
+  width: 100%;
+  background-color: #6CE4E0;
+
+
+}
+.low-container{
+  width: 100%;
+  display: grid;
+  grid-column: auto;
+  padding: 20px 0px 20px;
+
+}
+.epamimage{
+  float: left;
+}
+.signimg{
+  margin-left: 33%;
+}
+.back{
+  float: right;
+  background-color: #6CE4E0;
+}
+.break{
+  width: 80%;
+        text-align: center;
+        border-bottom: 1px solid #979faf;
+        line-height: 0.1em;
+        margin-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.forgot{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.forgotten{
+  float: left;
+}
+.register{
+  float: right;
+}
+.break span{
+        background: #fff;
+        padding: 0 10px;
+      }
+.sign{
+  background-color: #6CE4E0;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.emailclass, .passclass{
+  padding: 8px 8px 5px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  border: 1px solid #979faf;
+
+}
+button{
+    border-radius: 5px;
+}
+.facebookButton{
+  background-color:  #2c2cad;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  }
+.googleButton{
+  background-color:  #d22b00;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+.epamButton{
+    background-color:  #E4CC22;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width:768px) {
+  .first-container{
+    width: 600px;
+    margin-top: 50px;
+  }
+
+}
+@media only screen and (min-width:1000px) {
+  .first-container{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 600px;
+  }
+
+}
